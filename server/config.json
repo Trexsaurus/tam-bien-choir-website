@@ -1,0 +1,17 @@
+{
+    "database": {
+        "dialect": "sqlite",
+        "storage": "data.db",
+        "logging": false,
+        "define": {
+            "createdAt": "created",
+            "updatedAt": "updated",
+            "deletedAt": "deleted",
+            "underscored": true
+        }
+    },
+
+    "client": {
+        "path": "../client"
+    }
+}
