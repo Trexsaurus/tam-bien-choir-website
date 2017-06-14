@@ -2,3 +2,4 @@
 .idea
 data.db
 data.db-journal
+npm-debug.log
