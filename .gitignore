@@ -1,5 +1,4 @@
-./server/node_modules
-.idea
-data.db
-data.db-journal
-npm-debug.log
+/server/npm-debug.log
+/.idea/
+/server/data.db
+/server/node_modules/
