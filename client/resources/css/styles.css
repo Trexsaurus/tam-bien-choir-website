@@ -7,20 +7,22 @@
     padding-top: 50px;
 }
 
+nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
 #choirName{
-    font-size: 3.2em;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
     letter-spacing: .02em;
     text-align: center;
+    border-bottom: 3px solid white;
 }
 /** 109	192	251	**/
 
-.anncmnt-img {
-    height: 150px;
-    width: 150px;
 
-}
-
-#the-announcement {
+.the-announcement {
     color: black;
 }
 
