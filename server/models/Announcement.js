@@ -2,7 +2,7 @@
 
 module.exports = function (sequelize, DataTypes) {
     return sequelize.define("Announcement", {
-        id: {
+        announcementId: {
             type: DataTypes.UUID,
             defaultValue: DataTypes.UUIDV4,
             allowNull: false,
@@ -34,7 +34,8 @@ module.exports = function (sequelize, DataTypes) {
         },
         createdBy: {
             type: DataTypes.INTEGER,
-            allowNull: false
+            allowNull: false,
+            defaultValue: 0
         },
         updated: {
             type: DataTypes.DATE,
