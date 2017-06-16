@@ -39,6 +39,9 @@ nav {
     color: black;
 }
 
+.profile-pic {
+    max-height: 200px
+}
 
 form {
     color: black;
