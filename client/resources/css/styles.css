@@ -27,6 +27,14 @@ nav {
     margin: 50px auto 0px auto;
 }
 
+#mass-times p {
+    font-size: 20px;
+}
+
+.nav-btn {
+    width: 110px;
+}
+
 .the-announcement {
     color: black;
 }
@@ -35,11 +43,6 @@ form {
     color: black;
 }
 
-/*
-.indiv-announcement {
-   border-bottom: 1px solid white;
-}
-*/
 
 footer {
     border-top: 1px solid white;
