@@ -35,6 +35,11 @@ nav {
     width: 110px;
 }
 
+#ann-content h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .the-announcement {
     color: black;
 }
