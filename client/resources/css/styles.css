@@ -27,9 +27,15 @@ nav {
     margin: 50px auto 0px auto;
 }
 
-#mass-times p {
-    font-size: 20px;
+#listed-mass-times p:first-of-type {
+    margin-top: 30px;
 }
+
+#listed-mass-times p {
+    font-size: 20px;
+    text-align: center;
+}
+
 
 .nav-btn {
     width: 110px;
@@ -54,8 +60,12 @@ address {
 }
 
 #contact-distance {
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
+}
+
+#ann-display {
+    margin-top: 30px;
 }
 
 #contact-profiles-box {
